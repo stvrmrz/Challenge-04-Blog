@@ -83,11 +83,10 @@ input {
     rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
   margin: 2%;
   margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
-  width: 46%;
-  overflow: hidden;
-  position: relative;
-  float: left;
+  width: 50%;
 }
 
 .card::after {
