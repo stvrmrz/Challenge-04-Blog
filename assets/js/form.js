@@ -20,6 +20,14 @@
         title: title,
         content: content
       }
+      storeBlogPost(blogPostData);
+      
+      function storeBlogPost(blogPostData) {
+        // Get blogPosts from local storage or set to an empty array if null
+        let blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
+        blogPosts.push(blogPostData);
+        localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
+      }
   
       // Redirect to posts page
       window.location.href = "blog.html";
