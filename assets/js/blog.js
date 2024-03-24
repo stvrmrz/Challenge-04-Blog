@@ -1,7 +1,12 @@
-
-    const content = document.getElementById("content");
   
+    // Add event listener for theme toggle
+    const toggleThemeButton = document.getElementById("toggle-theme");
+    toggleThemeButton.addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+    });
+    
     // Load blog posts from localStorage
+    const content = document.getElementById("content");
     const blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
     displayBlogPosts(blogPosts);
     
