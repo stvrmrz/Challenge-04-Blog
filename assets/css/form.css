@@ -29,14 +29,20 @@ button {
   max-width: 255px;
   padding: 20px 52px;
   text-align: center;
-  transition-duration: 0.15s;
-  transition-property: background-color;
-  transition-timing-function: linear;
   margin-top: 0.6em;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+#toggle-theme {
+    background-color: #333;
+    color: #fff;
+    float: center;
+    padding: 5px 13px;
+
+}
+
 
 .input-group {
   margin-top: 10px;
