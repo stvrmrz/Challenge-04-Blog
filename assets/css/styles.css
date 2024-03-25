@@ -11,7 +11,11 @@ body {
   margin: 0;
 }
 
-  /* Light Mode */
+a {
+    color: black
+  }
+
+  /* Dark Mode */
   .dark {
     background-color: #333333;
     color: white;
@@ -34,6 +38,11 @@ body {
     color: white;
   }
 
+  .dark footer {
+    background-color: rgb(39, 37, 54);
+    color: white;
+  }
+
   /* Light Mode */
   .light {
     background-color: white;
@@ -46,4 +55,8 @@ body {
 
   .light p {
     color: black;
+  }
+
+  .dark a {
+    color: white;
   }
