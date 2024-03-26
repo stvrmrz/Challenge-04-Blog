@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="./assets/css/styles.css" />
-        <link rel="stylesheet" href="./assets/css/form.css" />
-        <title>Simple Blog | Form</title>
-    </head>
-    <body>
-    <div class="container dark">
-        <header>
-            <button id="toggle-theme">☀️</button>
-        </header>
-            <main>
-                <div class="card">
-                    <h2>What's on your mind?</h2>
-                        <form id="blog-form">
-                            <div class="input-group">
-                                <label for="username">Username</label>
-                                <input type="text" name="username" id="username" />
-                            </div>
-                            <div class="input-group">
-                                <label for="title">Title</label>
-                                <input type="text" name="title" id="title" />
-                            </div>
-                            <div class="input-group">
-                                <label for="content">Content</label>
-                                <textarea id="content" name="content" ></textarea>
-                            </div>
-                            <button type="submit">Submit </button>
-                            <p id="form-error" ></p>
-                        </form>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Link to main stylesheet -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Link to form-specific stylesheet -->
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <!-- Page title -->
+    <title>Simple Blog | Form</title>
+</head>
+<body>
+<!-- Main container with dark mode -->
+<div class="container dark">
+    <!-- Header section with toggle theme button -->
+    <header>
+        <button id="toggle-theme">☀️</button>
+    </header>
+    <!-- Main content area -->
+    <main>
+        <!-- Card container for form -->
+        <div class="card">
+            <!-- Heading for the form -->
+            <h2>What's on your mind?</h2>
+            <!-- Form for submitting blog posts -->
+            <form id="blog-form">
+                <!-- Input field for username -->
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" />
                 </div>
-            </main>
-            <footer>
-            <p>Made with ❤️ by Steve Ramirez</p>
-            </footer>
-        <script src="./assets/js/form.js"></script>
-        <script src="./assets/js/logic.js"></script>
-    </div>   
-    </body>
+                <!-- Input field for post title -->
+                <div class="input-group">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" />
+                </div>
+                <!-- Textarea for post content -->
+                <div class="input-group">
+                    <label for="content">Content</label>
+                    <textarea id="content" name="content"></textarea>
+                </div>
+                <!-- Submit button -->
+                <button type="submit">Submit</button>
+                <!-- Error message display -->
+                <p id="form-error"></p>
+            </form>
+        </div>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <p>Made with ❤️ by Steve Ramirez</p>
+    </footer>
+    <!-- Scripts for form functionality -->
+    <script src="./assets/js/form.js"></script>
+    <!-- Script for logic (e.g., theme toggle) -->
+    <script src="./assets/js/logic.js"></script>
+</div>
+</body>
 </html>
