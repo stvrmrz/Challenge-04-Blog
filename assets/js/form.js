@@ -7,7 +7,8 @@ form.addEventListener("submit", function(event) {
     const title = form.title.value;
     const content = form.content.value;
     const formError = document.getElementById("form-error");
-
+    
+    // Add input field completion error
     if (username === '' || title === '' || content === '') {
         formError.textContent = "Please complete all fields before submitting.";
         return;
