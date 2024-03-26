@@ -1,62 +1,70 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  background-color: white;
-  margin: 0;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    margin: 0;
 }
 
 a {
     color: black
-  }
+}
 
-  /* Dark Mode */
-  .dark {
+/* Dark Mode */
+.dark {
     background-color: #333333;
     color: white;
-  }
+}
 
-  .dark header {
-    background-color: rgb(39, 37, 54);
+.dark header {
+    background-color: rgb(35, 34, 38);
     color: white;
-  }
+}
 
-  .dark h3 {
+.dark h3 {
     color: white;
-  }
+}
 
-  .dark p {
+.dark h2 {
+    color: black;
+}
+
+.dark p {
     color: white;
-  }
+}
 
-  .dark a {
+.dark a {
     color: white;
-  }
+}
 
-  .dark footer {
-    background-color: rgb(39, 37, 54);
+.dark footer {
+    background-color: rgb(35, 34, 38);
     color: white;
-  }
+}
 
-  /* Light Mode */
-  .light {
+/* Light Mode */
+.light {
     background-color: white;
     color: black;
-  }
+}
 
-  .light h3 {
+.light h3 {
     color: black;
-  }
+}
 
-  .light p {
+.light h2 {
     color: black;
-  }
+}
 
-  .dark a {
+.light p {
+    color: black;
+}
+
+.dark a {
     color: white;
-  }
+}

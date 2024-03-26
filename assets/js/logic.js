@@ -1,4 +1,3 @@
-
 // Access toggle switch HTML element
 const toggleThemeButton = document.getElementById('toggle-theme')
 const container = document.querySelector('.container');
