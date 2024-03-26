@@ -21,7 +21,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Payroll Demo
+Blog Demo
 
 ![Project Blog Post Demo](/assets/blogPostDemo.gif)
 
@@ -63,22 +63,36 @@ reccomended to install Visual Studio code as well.
 <!-- USAGE EXAMPLES -->
 ## Link to Deployed Application
 
-_Here is a link to my [Deployed Payroll Web Page](https://stvrmrz.github.io/Challenge-03-Payroll/)_
+_Here is a link to my [Deployed Blog Web Page](https://stvrmrz.github.io/Challenge-04-Blog/)_
 
 <!-- ROADMAP -->
 ## Roadmap
 
-GIVEN an employee payroll tracker
-- [x] WHEN I click the "Add employee" button
-      THEN I am presented with a series of prompts asking for first name, last name, and salary
-- [x] WHEN I finish adding an employee
-      THEN I am prompted to continue or cancel
-- [x] WHEN I choose to continue
-      THEN I am prompted to add a new employee
-- [x] WHEN I choose to cancel
-      THEN my employee data is displayed on the page sorted alphabetically by last name, and the console shows computed and aggregated data
+GIVEN a personal blog
+- [x] WHEN I load the app,
+      THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
+- [x] WHEN I submit the form,
+      THEN blog post data is stored to localStorage.
+- [x] WHEN the form submits,
+      THEN I am redirected to the posts page.
+- [x] WHEN I try to submit a form without a username, title, or content,
+      THEN I am presented with a message that prompts me to complete the form.
+- [x] WHEN I view the posts page,
+      THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
+- [x] WHEN I click the light mode/dark mode toggle,
+      THEN the page content's styles update to reflect the selection.
+- [x] WHEN I click the "Back" button,
+      THEN I am redirected back to the landing page where I can input more blog entries.
+- [x] WHEN I view the main content,
+      THEN I am presented with a list of blog posts that are pulled from localStorage.
+- [x] WHEN I view localStorage,
+      THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
+- [x] WHEN I take a closer look at a single blog entry in the list,
+      THEN I can see the title, the content, and the author of the post.
+- [x] WHEN I view the footer,
+      THEN I am presented with a link to the developer's portfolio.
 
-See the [closed issues](https://github.com/stvrmrz/Challenge-03-Payroll/issues/1) for a full list of features.
+See the [closed issues](https://github.com/stvrmrz/Challenge-04-Blog/issues/1) for a full list of features.
 
 <!-- LICENSE -->
 ## License
@@ -90,7 +104,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Steve Ramirez - [@stvrmrz](https://twitter.com/stvrmrz) - stevearamirez@gmail.com
 
-Project Link: [https://github.com/stvrmrz/Challenge-03-Payroll](https://github.com/stvrmrz/Challenge-03-Payroll)
+Project Link: [https://github.com/stvrmrz/Challenge-04-Blog](https://github.com/stvrmrz/Challenge-04-Blog)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -98,9 +112,9 @@ Project Link: [https://github.com/stvrmrz/Challenge-03-Payroll](https://github.c
 Here are some of the resources that I used that I want to give credit to:
 
 * [othneildrew Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [MDN ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
-* [freeCodeCamp](https://www.freecodecamp.org/news/how-to-convert-a-string-to-a-number-in-javascript/)
-* [Medium](https://medium.com/codex/how-to-get-the-last-element-in-an-array-in-javascript-c106f2f4b830#:~:text=To%20get%20the%20last%20element%20of%20an%20array%20in%20JavaScript,the%20element%20at%20that%20index.)
-* [w3schools](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_pop)
-* [greenroots](https://blog.greenroots.info/5-ways-to-merge-arrays-in-javascript-and-their-differences)
-* [GeekforGeeks)](https://www.geeksforgeeks.org/how-to-get-first-n-number-of-elements-from-an-array-in-javascript/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+* [lipsum](https://www.lipsum.com/)
+* [stack overflow](https://stackoverflow.com/questions/5392882/why-is-chrome-showing-a-please-fill-out-this-field-tooltip-on-empty-fields)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+* [w3schools](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+* [CSS Tricks)](https://css-tricks.com/dark-modes-with-css/)
